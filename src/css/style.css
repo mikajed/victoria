@@ -83,6 +83,12 @@ body {
     margin: 0 auto;
 }
 
+.content h1 {
+    mix-blend-mode: screen;
+    background-color: #fff;
+    color: #000;
+}
+
 .content p {
     font-size: 1.2rem;
 }
