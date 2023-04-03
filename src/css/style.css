@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/falls.jpg);
+    background-size: cover;
+    filter: sepia(20%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 24px 32px;
+}
+
+.navbar .links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+    padding: 20px;
+    transition: 0.3s;
+    border-bottom: 1px solid #fff;
+}
+
+.links a:hover {
+    background-color: aquamarine;
+    padding: 20px;
+    color: green;
+    border-bottom: none;
+}
+
+#falls {
+    min-height: 100vh;
+    min-width: 100vw;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bridge {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #8dd2ee;
+    background-image: url(../images/bridge.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(40%);
+}
+
+#river {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #8dd2ee;
+    background-image: url(../images/river1.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: sepia(40%);
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 25px 0;
+    margin: 0;
+}
