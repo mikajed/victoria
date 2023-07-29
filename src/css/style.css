@@ -37,7 +37,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     background-color: #8dd2ee;
-    background-image: url(./images/falls.jpg);
+    background-image: url(../images/falls.jpg);
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -52,7 +52,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     background-color: #8dd2ee;
-    background-image: url(./images/bridge.jpg);
+    background-image: url(../images/bridge.jpg);
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -67,7 +67,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     background-color: #8dd2ee;
-    background-image: url(./images/river1.jpg);
+    background-image: url(../images/river1.jpg);
     background-size: cover;
     color: #fff;
     text-align: center;
